@@ -1,0 +1,31 @@
+{
+  "name": "yugioh_card_list",
+  "version": "1.0.0",
+  "description": "this website manage all card in yugioh",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuandang38/yugioh_card_list.git"
+  },
+  "keywords": [
+    "yugioh",
+    "card_yugioh",
+    "yugi_card",
+    "list"
+  ],
+  "author": "tuandang38",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuandang38/yugioh_card_list/issues"
+  },
+  "homepage": "https://github.com/tuandang38/yugioh_card_list#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemon": "^2.0.12"
+  }
+}
